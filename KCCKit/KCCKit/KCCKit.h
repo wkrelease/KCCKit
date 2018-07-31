@@ -1,13 +1,14 @@
 //
-//  KCKit.h
-//  KCKit
+//  KCCKit.h
+//  KCCKit
 //
-//  Created by king on 16/2/26.
-//  Copyright © 2016年 KC. All rights reserved.
+//  Created by king on 2018/7/31.
+//  Copyright © 2018 KC. All rights reserved.
 //
 
-#ifndef KCKit_h
-#define KCKit_h
+#ifndef KCCKit_h
+#define KCCKit_h
+
 
 #import "KCKitMacro.h"
 
@@ -92,11 +93,5 @@
 #import "KCSafeArray.h"
 #import "KCSafeDictionary.h"
 
-#endif /* KCKit_h */
 
-
-
-
-
-
-
+#endif /* KCCKit_h */

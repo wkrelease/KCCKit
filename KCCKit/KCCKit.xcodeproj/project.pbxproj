@@ -213,7 +213,6 @@
 		3C5ECADF21103AC2009B263B /* KCTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextEffectWindow.m; sourceTree = "<group>"; };
 		3C5ECAE021103AC3009B263B /* NSAttributedString+KCText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+KCText.h"; sourceTree = "<group>"; };
 		3C5ECAE121103AC3009B263B /* NSNotificationCenter+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+KCAdd.m"; sourceTree = "<group>"; };
-		3C5ECAE221103AC4009B263B /* KCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKit.h; sourceTree = "<group>"; };
 		3C5ECAE321103AC5009B263B /* NSData+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KCAdd.h"; sourceTree = "<group>"; };
 		3C5ECAE421103AC6009B263B /* UIImage+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KCAdd.m"; sourceTree = "<group>"; };
 		3C5ECAE521103AC6009B263B /* KCTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextRubyAnnotation.h; sourceTree = "<group>"; };
@@ -250,6 +249,7 @@
 		3C5ECB0421103ADB009B263B /* KCTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTransaction.h; sourceTree = "<group>"; };
 		3C5ECB0521103ADC009B263B /* MKAnnotationView+KCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+KCWebImage.m"; sourceTree = "<group>"; };
 		3C5ECB0621103ADC009B263B /* NSObject+KCAddForARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCAddForARC.m"; sourceTree = "<group>"; };
+		3C78C41A21103C98006E9F6C /* KCCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCKit.h; sourceTree = "<group>"; };
 		3CC822262110173F00874993 /* KCCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -283,6 +283,7 @@
 		3CC822282110173F00874993 /* KCCKit */ = {
 			isa = PBXGroup;
 			children = (
+				3C78C41A21103C98006E9F6C /* KCCKit.h */,
 				3C5ECA9321103A95009B263B /* _KCWebImageSetter.h */,
 				3C5ECAA021103A9A009B263B /* _KCWebImageSetter.m */,
 				3C5ECAF521103AD0009B263B /* CALayer+KCAdd.h */,
@@ -316,7 +317,6 @@
 				3C5ECADD21103AC2009B263B /* KCImageCache.m */,
 				3C5ECA8621103A90009B263B /* KCImageCoder.h */,
 				3C5ECA7321103A8C009B263B /* KCImageCoder.m */,
-				3C5ECAE221103AC4009B263B /* KCKit.h */,
 				3C5ECAFF21103AD6009B263B /* KCKitMacro.h */,
 				3C5ECAFA21103AD3009B263B /* KCKVStorage.h */,
 				3C5ECAF021103ACD009B263B /* KCKVStorage.m */,
