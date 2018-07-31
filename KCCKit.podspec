@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.author = { 'cocoakc' => '18501987683@163.com' }
   s.source = { :git => 'https://github.com/wkrelease/KCCKit.git', :tag => '1.0.1' }
 
-  s.source_files = "KCCKit/**/*.{h,m}"
 
 
   s.description = 'Blah Blah Blah BlahBlah BlahBlah BlahBlah BlahBlah Blah Blah Blah'      \
